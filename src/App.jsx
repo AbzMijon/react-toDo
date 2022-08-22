@@ -1,9 +1,12 @@
 import React from "react"
 
+//components
+import TodoApp from "./Scene/TodoApp/TodoApp";
+
 function App() {
     return (
         <React.Fragment>
-            <h3>Hello to do task!</h3>
+            <TodoApp/>
         </React.Fragment>
     )
 }
