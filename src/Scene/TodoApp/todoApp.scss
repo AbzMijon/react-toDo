@@ -1,13 +1,21 @@
 .main-title {
     text-align: center;
     margin-bottom: 30px;
+    color: #fff;
+    letter-spacing: 1px;
 }
 .todo {
     border: 2px solid #000;
-    border-radius: 5px;
-    padding: 20px 25px;
+    border-radius: 10px;
+    padding: 30px 35px;
     background-color: #fff;
     width: 100%;
+}
+
+.todo__notask {
+    text-align: center;
+    margin: 20px 0 5px 0;
+    color: #504747;
 }
 
 .todo__header {
